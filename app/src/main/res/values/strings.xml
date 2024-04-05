@@ -1,49 +1,83 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <resources>
-    <string name="app_name">nguyen_quoc_truong_s_home</string>
+
+    <!-- General -->
+    <string name="app_name">CareerHub OTP</string>
     <string name="loading">Loading…</string>
     <string name="no_internet_connection">No internet connection!</string>
-<string name="msg_dubai_uae_1_week">Dubai, UAE, 1 week ago</string>
-  <string name="msg_enter_your_email">Enter Your Email Address</string>
-  <string name="lbl_email_address">Email Address</string>
-  <string name="msg_enter_your_username">Enter Your Username</string>
-  <string name="lbl_ux_researcher">UX Researcher</string>
-  <string name="msg_sign_in_to_jobiago">Sign In to Jobiago</string>
-  <string name="msg_don_t_have_an_account">Don\u2019t have an account? Sign Up</string>
-  <string name="msg_already_have_an">Already have an account? Sign In</string>
-  <string name="lbl_google">Google</string>
-  <string name="msg_senior_ui_designer">Senior UI Designer</string>
-  <string name="msg_enter_your_mobile">Enter Your Mobile Number</string>
-  <string name="msg_united_arab_emirates">United Arab Emirates</string>
-  <string name="msg_enter_your_password">Enter Your Password</string>
-  <string name="lbl_first_screen">First
-Screen</string>
-  <string name="msg_mumbai_india_2">Mumbai, India, 2 day ago</string>
-  <string name="msg_already_have_an2">Already have an account? </string>
-  <string name="msg_find_your_perfect">Find Your Perfect Job!</string>
-  <string name="msg_continue_with_google">Continue With Google</string>
-  <string name="lbl_48k_hour">$48k / hour</string>
-  <string name="lbl_sign_in">Sign In</string>
-  <string name="msg_product_designer">Product Designer</string>
-  <string name="lbl_mobile_number">Mobile Number</string>
-  <string name="msg_user_experience">User Experience Designer</string>
-  <string name="lbl_nearby_jobs">Nearby Jobs </string>
-  <string name="lbl_sign_up">Sign Up</string>
-  <string name="lbl_password">Password</string>
-  <string name="lbl_or">---- Or ----</string>
-  <string name="msg_forgot_password">Forgot Password?</string>
-  <string name="msg_continue_with_facebook">Continue With Facebook</string>
-  <string name="msg_simonehane_yahoo_com">SimoneHane@yahoo.com</string>
-  <string name="msg_enter_email_address">Enter Email Address</string>
-  <string name="lbl_hi_simone">Hi Simone,</string>
-  <string name="msg_bangaluru_india">Bangaluru, India, 2 week ago</string>
-  <string name="msg_8k_mumbai_india">$8k - Mumbai, India</string>
-  <string name="msg_lead_product_design">Lead Product Design Manager</string>
-  <string name="lbl">************</string>
-  <string name="lbl_username">Username</string>
-  <string name="msg_lead_product_design2">Lead Product  Design Manager</string>
-  <string name="lbl_show_all">Show All</string>
-  <string name="lbl_search_job">Search Job</string>
-  <string name="lbl_remember_me">Remember me</string>
-  <string name="lbl_recently_added">Recently Added</string>
+    <string name="client_id">995750891075-dhe8d0tvuir2ge0vtor0b96nvhv3augh.apps.googleusercontent.com</string>
+    <!-- Job Information -->
+    <string name="msg_dubai_uae_1_week">Dubai, UAE, 1 week ago</string>
+    <string name="msg_bangaluru_india">Bangaluru, India, 2 weeks ago</string>
+    <string name="msg_mumbai_india_2">Mumbai, India, 2 days ago</string>
+    <string name="msg_8k_mumbai_india">$8k - Mumbai, India</string>
+    <string name="msg_united_arab_emirates">United Arab Emirates</string>
+
+    <!-- Job Titles -->
+    <string name="msg_product_designer">Product Designer</string>
+    <string name="msg_user_experience">User Experience Designer</string>
+    <string name="msg_senior_ui_designer">Senior UI Designer</string>
+    <string name="msg_lead_product_design">Lead Product Design Manager</string>
+
+    <!-- User Interface -->
+    <string name="lbl_nearby_jobs">Nearby Jobs</string>
+    <string name="lbl_search_job">Search Job</string>
+    <string name="lbl_show_all">Show All</string>
+    <string name="lbl_first_screen">First Screen</string>
+    <string name="lbl_recently_added">Recently Added</string>
+    <string name="lbl_hi_simone">Hi Simone,</string>
+    <string name="lbl_google">Google</string>
+    <string name="lbl_ux_researcher">UX Researcher</string>
+    <string name="lbl_48k_hour">$48k / hour</string>
+
+    <!-- Sign In / Sign Up -->
+    <string name="lbl_sign_in">Sign In</string>
+    <string name="lbl_sign_up">Sign Up</string>
+    <string name="lbl_or">---- Or ----</string>
+    <string name="lbl_username">Username</string>
+    <string name="lbl_password">Password</string>
+    <string name="lbl_email_address">Email Address</string>
+    <string name="lbl_mobile_number">Mobile Number</string>
+    <string name="lbl_remember_me">Remember me</string>
+    <string name="msg_enter_your_email">Enter your email address</string>
+    <string name="msg_enter_your_username">Enter your username</string>
+    <string name="msg_enter_your_mobile">Enter your mobile number</string>
+    <string name="msg_enter_your_password">Enter your password</string>
+    <string name="msg_sign_in_to_jobiago">Sign in to Jobiago</string>
+    <string name="msg_don_t_have_an_account">Don’t have an account? Sign up</string>
+    <string name="msg_already_have_an">Already have an account? Sign in</string>
+    <string name="msg_forgot_password">Forgot password?</string>
+    <string name="msg_continue_with_google">Continue with Google</string>
+    <string name="msg_continue_with_facebook">Continue with Facebook</string>
+
+    <!-- OTP Verification -->
+    <string name="msg_otp_verification">OTP Verification</string>
+    <string name="msg_sms_was_sent_to">SMS was sent to your number +971 4 4475 70</string>
+    <string name="lbl_verify">Verify</string>
+    <string name="lbl_code_from_sms">Code from SMS</string>
+    <string name="msg_you_are_successfully">You are successfully registered!</string>
+    <string name="lbl_let_s_go">Let’s Go</string>
+
+    <!-- Placeholder -->
+    <string name="hello_blank_fragment">Hello blank fragment</string> <!-- Consider removing if unused -->
+
+    <!-- Time Labels -->
+    <string name="lbl_valid_for">valid for</string>
+    <string name="lbl_01_25">01:25</string>
+    <string name="lbl_it_will_be">It will be</string>
+    <string name="save_icon">Save Icon</string>
+
+    <string name="see_more_arrow">See More</string>
+    <string name="see_less_arrow">See Less</string>
+    <string name="job_description">Job Description</string>
+    <string name="job_subtitle">First Screen</string>
+    <string name="job_title">Senior UI Designer</string>
+    <string name="back_icon">Back Icon</string>
+    <string name="job_details_title">Job Details</string>
+    <string name="location_icon">Location</string>
+    <string name="work_icon">Work</string>
+
+    <string name="searchbar_hint">Search Job</string>
 </resources>
+
+

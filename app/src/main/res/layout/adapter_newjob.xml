@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/linearUserprofile"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:paddingHorizontal="@dimen/_8pxh"
+        android:paddingVertical="@dimen/_8pxv" style="@style/groupStyleteal_50cornerRadius">
+        <LinearLayout android:id="@+id/linearColumnfirstscre"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:paddingHorizontal="@dimen/_11pxh"
+            android:paddingVertical="@dimen/_11pxv" style="@style/groupStylewhite_A700cornerRadius">
+            <View android:background="@drawable/img_image_299"
+                android:id="@+id/viewImage299One"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="@dimen/_40pxh" android:layout_width="@dimen/_40pxh"/>
+            <TextView android:gravity="center_horizontal"
+                android:id="@+id/txtFirstscreen"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_14pxv"
+                android:layout_width="match_parent"
+                android:lineSpacingExtra="@dimen/_7pxh"
+                android:text="job"
+                style="@style/txtPoppinsregular13" tools:text="@string/lbl_first_screen"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="start"
+            android:id="@+id/linearColumnleadprodu"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_18pxh"
+            android:layout_marginTop="@dimen/_5pxv"
+            android:layout_width="wrap_content" android:orientation="vertical">
+            <TextView android:id="@+id/txtLeadproduct"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:letterSpacing="0.05"
+                android:lineSpacingExtra="@dimen/_7pxh"
+                android:text="job name"
+                style="@style/txtPoppinsmedium15" tools:text="@string/msg_lead_product_design"/>
+            <TextView android:ellipsize="end"
+                android:id="@+id/txtUnitedarab"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_3pxv"
+                android:layout_width="match_parent"
+                android:letterSpacing="0.05"
+                android:lineSpacingExtra="@dimen/_8pxh"
+                android:singleLine="true"
+                android:text="job txtUnitedarab"
+                style="@style/txtPoppinsmedium12" tools:text="@string/msg_united_arab_emirates"/>
+            <TextView android:ellipsize="end" android:id="@+id/txtPrice"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_19pxv"
+                android:layout_width="wrap_content"
+                android:letterSpacing="0.02"
+                android:textColor="@color/black"
+                android:lineSpacingExtra="@dimen/_7pxh"
+                android:singleLine="true"
+                android:text="Salary"
+                tools:text="@string/lbl_48k_hour"/>
+        </LinearLayout>
+    </LinearLayout>
+

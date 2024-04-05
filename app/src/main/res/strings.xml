@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <string name="app_name">nguyen_quoc_truong_s_home</string>
+    <string name="loading">Loading…</string>
+    <string name="no_internet_connection">No internet connection!</string>
+<string name="msg_dubai_uae_1_week">Dubai, UAE, 1 week ago</string>
+  <string name="msg_enter_your_email">Enter Your Email Address</string>
+  <string name="lbl_email_address">Email Address</string>
+  <string name="msg_enter_your_username">Enter Your Username</string>
+  <string name="lbl_ux_researcher">UX Researcher</string>
+  <string name="msg_sign_in_to_jobiago">Sign In to Jobiago</string>
+  <string name="msg_don_t_have_an_account">Don\u2019t have an account? Sign Up</string>
+  <string name="msg_already_have_an">Already have an account? Sign In</string>
+  <string name="lbl_google">Google</string>
+  <string name="msg_senior_ui_designer">Senior UI Designer</string>
+  <string name="msg_enter_your_mobile">Enter Your Mobile Number</string>
+  <string name="msg_united_arab_emirates">United Arab Emirates</string>
+  <string name="msg_enter_your_password">Enter Your Password</string>
+  <string name="lbl_first_screen">First
+Screen</string>
+  <string name="msg_mumbai_india_2">Mumbai, India, 2 day ago</string>
+  <string name="msg_already_have_an2">Already have an account? </string>
+  <string name="msg_find_your_perfect">Find Your Perfect Job!</string>
+  <string name="msg_continue_with_google">Continue With Google</string>
+  <string name="lbl_48k_hour">$48k / hour</string>
+  <string name="lbl_sign_in">Sign In</string>
+  <string name="msg_product_designer">Product Designer</string>
+  <string name="lbl_mobile_number">Mobile Number</string>
+  <string name="msg_user_experience">User Experience Designer</string>
+  <string name="lbl_nearby_jobs">Nearby Jobs </string>
+  <string name="lbl_sign_up">Sign Up</string>
+  <string name="lbl_password">Password</string>
+  <string name="lbl_or">---- Or ----</string>
+  <string name="msg_forgot_password">Forgot Password?</string>
+  <string name="msg_continue_with_facebook">Continue With Facebook</string>
+  <string name="msg_simonehane_yahoo_com">SimoneHane@yahoo.com</string>
+  <string name="msg_enter_email_address">Enter Email Address</string>
+  <string name="lbl_hi_simone">Hi Simone,</string>
+  <string name="msg_bangaluru_india">Bangaluru, India, 2 week ago</string>
+  <string name="msg_8k_mumbai_india">$8k - Mumbai, India</string>
+  <string name="msg_lead_product_design">Lead Product Design Manager</string>
+  <string name="lbl">************</string>
+  <string name="lbl_username">Username</string>
+  <string name="msg_lead_product_design2">Lead Product  Design Manager</string>
+  <string name="lbl_show_all">Show All</string>
+  <string name="lbl_search_job">Search Job</string>
+  <string name="lbl_remember_me">Remember me</string>
+  <string name="lbl_recently_added">Recently Added</string>
+</resources>

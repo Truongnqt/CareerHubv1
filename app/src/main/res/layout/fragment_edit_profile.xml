@@ -1,0 +1,212 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <!-- Header -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/icon_back"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:src="@drawable/ic_arrow_left"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"/>
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Edit Profile"
+                android:textColor="#040C22"
+                android:textSize="21sp"
+                android:fontFamily="@style/TextAppearance.AppCompat.Display1"
+                android:layout_centerInParent="true"/>
+        </RelativeLayout>
+
+        <!-- Profile Image -->
+        <ImageView
+            android:id="@+id/profile_image"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"
+            android:src="@drawable/img_image_amazonlogo"
+            android:scaleType="centerCrop"
+            android:background="@drawable/rounded_image_background"/>
+
+        <!-- Profile Info -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="32dp">
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Simone Hane"
+                android:textColor="#0A1629"
+                android:textSize="21sp"/>
+
+            <TextView
+                android:id="@+id/position"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Simone.hane@gmail.com"
+                android:textColor="#0A1629"
+                android:textSize="15sp"
+                android:layout_marginTop="4dp"/>
+        </LinearLayout>
+
+        <!-- Progress Bar Placeholder -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="end"
+            android:layout_marginTop="16dp">
+
+        </LinearLayout>
+
+        <!-- Main Info Section -->
+        <TextView
+            android:id="@+id/main_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Main Info"
+            android:textColor="#0A1629"
+            android:textSize="15sp"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="16dp"/>
+
+        <EditText
+            android:id="@+id/position_input"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@drawable/input_filled_background"
+            android:hint="Name"
+            android:textColorHint="@color/blue_gray_400"
+            android:textColor="@color/blue_gray_400"
+            android:textSize="15sp"
+            android:paddingStart="14dp"
+            android:layout_marginBottom="16dp"/>
+
+        <EditText
+            android:id="@+id/national"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@drawable/input_filled_background"
+            android:hint="National"
+            android:textColorHint="@color/blue_gray_400"
+            android:textColor="@color/blue_gray_400"
+            android:textSize="15sp"
+            android:paddingStart="14dp"
+            android:layout_marginBottom="16dp"/>
+
+        <EditText
+            android:id="@+id/location"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@drawable/input_filled_background"
+            android:hint="Location"
+            android:textColor="@color/blue_gray_400"
+            android:textColorHint="@color/blue_gray_400"
+            android:textSize="15sp"
+            android:paddingStart="14dp"
+            android:layout_marginBottom="16dp"/>
+
+        <EditText
+            android:id="@+id/birthday"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@drawable/input_filled_background"
+            android:hint="Birthday Date"
+            android:textColor="@color/blue_gray_400"
+            android:textColorHint="@color/blue_gray_400"
+            android:textSize="15sp"
+            android:paddingStart="14dp"
+            android:layout_marginBottom="16dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gender"
+            android:textColor="#0A1629"
+            android:textSize="15sp"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="16dp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/radioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Male"
+                android:textColor="@color/blue_gray_400"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="30dp"
+                android:padding="16dp"/>
+
+            <RadioButton
+                android:id="@+id/radioButton2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Female"
+                android:textColor="@color/blue_gray_400"
+
+                android:padding="16dp"/>
+        </LinearLayout>
+
+        <!-- Contact Info Section -->
+        <TextView
+            android:id="@+id/contact_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contact Info"
+            android:textColor="#0A1629"
+            android:textSize="15sp"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="16dp"/>
+
+        <EditText
+            android:id="@+id/mobile_number"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@drawable/input_filled_background"
+            android:hint="Mobile Number"
+            android:textColor="@color/blue_gray_400"
+            android:textColorHint="@color/blue_gray_400"
+            android:textSize="15sp"
+            android:paddingStart="14dp"
+            android:layout_marginBottom="24dp"/>
+
+        <!-- Save Button -->
+        <Button
+            android:id="@+id/applyNowButton"
+            android:layout_width="320dp"
+            android:layout_height="52dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@android:color/holo_blue_dark"
+            android:text="Save Changes"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+</ScrollView>

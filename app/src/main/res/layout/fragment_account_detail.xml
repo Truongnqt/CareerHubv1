@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/profile_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="My Profile"
+            android:textColor="#040c22"
+            android:textSize="21sp"
+            android:lineSpacingMultiplier="1.48"
+            android:fontFamily="sans-serif-medium"
+            android:letterSpacing="0.05"
+            android:layout_centerHorizontal="true" />
+
+        <ImageButton
+            android:id="@+id/icon_settings"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="56dp"
+            android:layout_marginEnd="3dp"
+            android:background="@drawable/shape_background"
+            android:padding="11dp"
+            android:src="@drawable/ic_settings"
+             />
+
+        <ImageButton
+            android:id="@+id/icon_back"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="-3dp"
+            android:layout_marginTop="56dp"
+            android:background="@drawable/shape_background"
+            android:padding="11dp"
+            android:src="@drawable/ic_arrow_left"
+            />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#e4e6e8" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/work_experience_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Work Experience"
+            android:textColor="#0a1629"
+            android:textSize="15sp"
+            android:lineSpacingMultiplier="1.47"
+            android:fontFamily="sans-serif-medium"
+            android:letterSpacing="0.05" />
+
+        <!-- Atechy Group Work Experience -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp">
+
+            <ImageView
+                android:id="@+id/atechy_group_logo"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentStart="true"
+                android:src="@drawable/img_image_media_netlogo" />
+
+            <TextView
+                android:id="@+id/job_title_atechy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@id/atechy_group_logo"
+                android:layout_marginStart="16dp"
+                android:text="UI Designer"
+                android:textColor="#0a1629"
+                android:textSize="13sp"
+                android:lineSpacingMultiplier="1.46"
+                android:fontFamily="sans-serif-medium"
+                android:letterSpacing="0.05" />
+
+            <TextView
+                android:id="@+id/job_details_atechy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/job_title_atechy"
+                android:layout_toEndOf="@id/atechy_group_logo"
+                android:layout_marginStart="16dp"
+                android:text="Atechy Group | Full-time | 2 years"
+                android:textColor="#91929e"
+                android:textSize="11sp"
+                android:lineSpacingMultiplier="1.46"
+                android:fontFamily="sans-serif"
+                android:letterSpacing="0.05" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <!-- Personal Info Section -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/main_info_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Main info"
+            android:textColor="#0a1629"
+            android:textSize="15sp"
+            android:lineSpacingMultiplier="1.47"
+            android:fontFamily="sans-serif-medium"
+            android:letterSpacing="0.05" />
+
+        <TextView
+            android:id="@+id/profile_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Simone Hane"
+            android:textColor="#0a1629"
+            android:textSize="21sp"
+            android:lineSpacingMultiplier="1.48"
+            android:fontFamily="sans-serif-medium"
+            android:letterSpacing="0.05"
+            android:layout_marginTop="16dp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp">
+
+            <ImageView
+                android:id="@+id/location_icon"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignParentStart="true"
+                android:src="@drawable/ic_location"
+               />
+
+            <TextView
+                android:id="@+id/location_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@id/location_icon"
+                android:layout_marginStart="16dp"
+                android:text="Dubai, United Arab Emirates"
+                android:textColor="#121212"
+                android:textSize="13sp"
+                android:lineSpacingMultiplier="1.46"
+                android:fontFamily="sans-serif-light"
+                android:letterSpacing="0.4" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp">
+
+            <ImageView
+                android:id="@+id/calendar_icon"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignParentStart="true"
+                android:src="@drawable/calender"
+               />
+
+            <TextView
+                android:id="@+id/birthday_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@id/calendar_icon"
+                android:layout_marginStart="16dp"
+                android:text="May 19, 1996"
+                android:textColor="#121212"
+                android:textSize="13sp"
+                android:lineSpacingMultiplier="1.46"
+                android:fontFamily="sans-serif-light"
+                android:letterSpacing="0.4" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <!-- Contact Info Section -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/contact_info_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contact info"
+            android:textColor="#0a1629"
+            android:textSize="15sp"
+            android:lineSpacingMultiplier="1.47"
+            android:fontFamily="sans-serif-medium"
+            android:letterSpacing="0.05" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp">
+
+            <ImageView
+                android:id="@+id/email_icon"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignParentStart="true"
+                android:src="@drawable/mail"
+              />
+
+            <TextView
+                android:id="@+id/email_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@id/email_icon"
+                android:layout_marginStart="16dp"
+                android:text="simone.hane@mail.com"
+                android:textColor="#121212"
+                android:textSize="13sp"
+                android:lineSpacingMultiplier="1.46"
+                android:fontFamily="sans-serif-light"
+                android:letterSpacing="0.4" />
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="16dp">
+
+            <TextView
+                android:id="@+id/phone_number_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:letterSpacing="0.05"
+                android:lineSpacingMultiplier="1.47"
+                android:text="Phone number"
+                android:textColor="#0a1629"
+                android:textSize="15sp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp">
+
+                <ImageView
+                    android:id="@+id/phone_icon"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_alignParentStart="true"
+                    android:src="@drawable/ic_call"
+                    />
+
+                <TextView
+                    android:id="@+id/phone_number_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@id/phone_icon"
+                    android:layout_marginStart="16dp"
+                    android:text="+971 4 4475 70"
+                    android:textColor="#121212"
+                    android:textSize="13sp"
+                    android:lineSpacingMultiplier="1.46"
+                    android:fontFamily="sans-serif-light"
+                    android:letterSpacing="0.4" />
+            </RelativeLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+
+

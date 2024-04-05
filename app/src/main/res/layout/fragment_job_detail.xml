@@ -1,0 +1,201 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/job_detail"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+   >
+
+    <!-- Background box with rounded corners -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        android:padding="16dp"
+        android:layout_margin="16dp"
+        android:elevation="2dp"
+        android:clipToOutline="true"
+        android:outlineProvider="background">
+
+        <!-- Badge with text -->
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="24dp"
+            android:layout_marginStart="16dp">
+            <!-- Badge background -->
+
+
+
+        </RelativeLayout>
+
+        <!-- Job details title -->
+        <TextView
+            android:id="@+id/jobDetailsTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Job details"
+            android:textColor="@android:color/black"
+            android:textSize="21sp"
+            android:layout_marginTop="16dp"
+            android:gravity="center" />
+
+        <!-- Back icon -->
+        <ImageButton
+            android:id="@+id/iconBack"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="56dp"
+            android:background="@drawable/rounded_corner_background"
+            android:src="@drawable/ic_back_arrow"
+            android:contentDescription="@string/back_icon" />
+
+        <!-- Save icon -->
+        <ImageButton
+            android:id="@+id/iconSave"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="24dp"
+            android:layout_marginTop="56dp"
+            android:background="@drawable/rounded_corner_background"
+            android:src="@drawable/ic_save"
+            android:contentDescription="@string/save_icon" />
+
+        <!-- Job title -->
+        <TextView
+            android:id="@+id/jobTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/jobDetailsTitle"
+            android:layout_marginTop="16dp"
+            android:text="Senior UI Designer"
+            android:textColor="@android:color/black"
+            android:textSize="17sp"
+            android:gravity="center" />
+
+        <!-- Job subtitle -->
+        <TextView
+            android:id="@+id/jobSubtitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/jobTitle"
+            android:layout_marginTop="8dp"
+            android:text="First Screen"
+            android:textColor="@android:color/black"
+            android:textSize="13sp"
+            android:gravity="center" />
+
+        <!-- Job description title -->
+        <TextView
+            android:id="@+id/jobDescriptionTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/jobSubtitle"
+            android:layout_marginTop="24dp"
+            android:layout_marginStart="44dp"
+            android:text="Job description"
+            android:textColor="@android:color/black"
+            android:textSize="15sp" />
+
+        <!-- Job description content -->
+        <TextView
+            android:id="@+id/jobDescriptionContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/jobDescriptionTitle"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="44dp"
+            android:layout_marginEnd="44dp"
+            android:text="Responsibilities for UI Designer\nImprove the look and feel of interactive components in the website, mobile applications and other product software\nDesign the aesthetics / theme to be implemented within a website or product, from the layout menus and drop-down options to colors and fonts\nBe a great team player"
+            android:textColor="@android:color/black"
+            android:textSize="13sp"
+            android:lineSpacingExtra="4dp" />
+
+        <!-- Location -->
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/jobDescriptionContent"
+            android:layout_marginTop="24dp"
+            android:layout_marginStart="44dp">
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignParentStart="true"
+                android:src="@drawable/ic_location"
+                android:contentDescription="@string/location_icon" />
+            <TextView
+                android:id="@+id/location"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@drawable/ic_location"
+                android:layout_marginStart="26dp"
+                android:text="Dubai, United Arab Emirates"
+                android:textColor="@android:color/black"
+                android:textSize="13sp" />
+        </RelativeLayout>
+
+        <!-- Work level -->
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/jobDescriptionContent"
+            android:layout_marginTop="48dp"
+            android:layout_marginStart="44dp">
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignParentStart="true"
+                android:src="@drawable/ic_work"
+                android:contentDescription="@string/work_icon" />
+            <TextView
+                android:id="@+id/timeandsalary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@drawable/ic_work"
+                android:layout_marginStart="26dp"
+                android:text="Senior Level | Full-time"
+                android:textColor="@android:color/black"
+                android:textSize="13sp" />
+        </RelativeLayout>
+
+        <!-- Apply now button -->
+        <Button
+            android:id="@+id/applyNowButton"
+            android:layout_width="320dp"
+            android:layout_height="52dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="16dp"
+            android:layout_marginStart="68dp"
+            android:layout_marginEnd="68dp"
+            android:background="@android:color/holo_blue_dark"
+            android:text="Apply Now"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <!-- See more -->
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="80dp"
+            android:layout_centerHorizontal="true">
+            <TextView
+                android:id="@+id/seeMoreText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="See More"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="13sp"
+                />
+
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

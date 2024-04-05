@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/groupStylewhite_1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingStart="@dimen/_9pxh"
+    android:paddingTop="@dimen/_12pxv"
+    android:paddingEnd="@dimen/_9pxh"
+    android:paddingBottom="@dimen/_12pxv">
+
+    <ImageView
+        android:id="@+id/imageUserImage"
+        android:layout_width="@dimen/_49pxh"
+        android:layout_height="@dimen/_49pxh"
+        android:layout_gravity="center_vertical"
+        android:scaleType="fitXY"
+        tools:ignore="ContentDescription"
+        tools:src="@drawable/img_image_amazonlogo" />
+
+    <LinearLayout
+        android:id="@+id/linearColumnproductna"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_8pxh"
+        android:layout_marginTop="@dimen/_2pxv"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtProductName"
+            style="@style/txtPoppinsmedium15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:gravity="center_horizontal"
+            android:letterSpacing="0.05"
+            android:lineSpacingExtra="@dimen/_8pxh"
+            android:singleLine="true"
+            android:text="nono"
+            tools:text="@string/msg_senior_ui_designer" />
+
+        <TextView
+            android:id="@+id/txtLocation"
+            style="@style/txtPoppinsmedium13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5pxv"
+            android:ellipsize="end"
+            android:gravity="center_horizontal"
+            android:letterSpacing="0.02"
+            android:lineSpacingExtra="@dimen/_7pxh"
+            android:singleLine="true"
+            android:text="don't have a job yet?"
+            tools:text="@string/msg_dubai_uae_1_week" />
+    </LinearLayout>
+</LinearLayout>
+

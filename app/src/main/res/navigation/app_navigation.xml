@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/app_navigation"
+    app:startDestination="@id/signIn">
+
+    <fragment
+        android:id="@+id/signIn"
+        android:name="com.example.careerhub.ui.Account.SignIn"
+        android:label="SignIn" >
+        <action
+            android:id="@+id/action_signIn_to_signUp"
+            app:destination="@id/signUp" />
+        <action
+            android:id="@+id/action_signIn_to_homePageFragment"
+            app:destination="@id/homePageFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/signUp"
+        android:name="com.example.careerhub.ui.Account.SignUp.SignUp"
+        android:label="SignUp" >
+        <action
+            android:id="@+id/action_signUp_to_signIn"
+            app:destination="@id/signIn" />
+    </fragment>
+    <fragment
+        android:id="@+id/homePageFragment"
+        android:name="com.example.careerhub.ui.homepage.HomePageFragment"
+        android:label="fragment_home_page" >
+        <action
+            android:id="@+id/action_homePageFragment_to_jobDetailFragment"
+            app:destination="@id/jobDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/jobDetailFragment"
+        android:name="com.example.careerhub.ui.homepage.JobDetailFragment"
+        android:label="JobDetailFragment" >
+        <argument
+            android:name="jobInformationId"
+            app:argType="integer" />
+    </fragment>
+    <fragment
+        android:id="@+id/listAllJobFragment"
+        android:name="com.example.careerhub.ui.listallJob.ListAllJobFragment"
+        android:label="fragment_list_all_job"
+        tools:layout="@layout/fragment_list_all_job" >
+        <action
+            android:id="@+id/action_lisalljobFragment_to_jobDetailFragment"
+            app:destination="@id/jobDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/accountDetailFragment"
+        android:name="com.example.careerhub.ui.Account.AccountDetailFragment"
+        android:label="AccountDetailFragment" />
+    <fragment
+        android:id="@+id/editProfileFragment"
+        android:name="com.example.careerhub.ui.Account.EditProfileFragment"
+        android:label="EditProfileFragment" />
+</navigation>
